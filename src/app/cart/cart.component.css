@@ -1,0 +1,60 @@
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; 
+    /* Adjust as needed */
+}
+
+.col-4 {
+    padding: 10px;
+    /* Adjust as needed */
+    box-sizing: border-box;
+    flex: 0 0 33.33%;
+    /* 3 cards side by side */
+    max-width: 33.33%;
+    /* 3 cards side by side */
+}
+
+
+/* .head1{
+    font-weight: 400;
+    margin: 0;
+} */
+/* .per1{
+    color: rgb(168,162,162);
+} */
+
+.btnc {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0a auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btnc:hover {
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+
+.card img{
+    height: 300px;
+}
+
+.input-group button{
+    width: 70px;
+}
